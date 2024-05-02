@@ -1,6 +1,6 @@
 # Vehicle CO2 Emissions Calculator
 
-This project includes a Python script that uses the Climatiq API to calculate CO2 emissions for three types of vehicles over a distance of 16 miles. The vehicles considered are light, mid-range and heavy-duty vehicles.
+This project includes a Python script that uses the Climatiq API to calculate CO2 emissions for three types of vehicles over a distance of 16 miles. The vehicles considered are light, mid-range and heavy-duty vehicles. This project was commissioned by Marllm.
 
 - `output_all_data.py` will return the unfiltered emission data.
 - `output_sorted_data.py` will return a neat table and bar graph. 
