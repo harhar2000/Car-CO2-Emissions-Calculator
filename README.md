@@ -24,5 +24,5 @@ To run these scripts, you will need Python and the `requests` library installed.
 1. Clone this repository.
 2. Install `requests` and `Streamlit` using pip: 
 3. Insert your Climatiq API key into the script
-4. Comment Line 1 in output_all_data.py, output_sorted_data.py and app.py once you've inserted your Climatiq API key.
+4. Comment Line 1 in `output_all_data.py`, `output_sorted_data.py` and `app.py` once you've inserted your Climatiq API key.
 5. To run the streamlit app, run `streamlit run app.py` in the terminal for app.py. This will start a local server. Open the URL provided in the terminal to interact with your app.
