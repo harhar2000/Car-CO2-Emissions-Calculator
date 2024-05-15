@@ -12,7 +12,7 @@ This project includes a Python script that uses the Climatiq API to calculate CO
 
 ## Getting Started
 
-To run these scripts, you will need Python and the `requests` library installed. You'll also need an API key from Climatiq. [Climatiq API](https://www.climatiq.io/)
+To run these scripts, you will need Python and the `requests` library installed. You'll also need an API key from [Climatiq API](https://www.climatiq.io/)
 
 ### Prerequisites
 
@@ -28,3 +28,5 @@ To run these scripts, you will need Python and the `requests` library installed.
 3. Insert your Climatiq API key into the script
 4. Comment Line 1 in `output_all_data.py`, `output_sorted_data.py` and `app.py` once you've inserted your Climatiq API key.
 5. To run the streamlit app, run `streamlit run app.py` in the terminal for app.py. This will start a local server. Open the URL provided in the terminal to interact with your app.
+
+Deployed app link - https://car-co2-emissions-calculator-3eyzgf3dcv7jfdqmans8al.streamlit.app/
