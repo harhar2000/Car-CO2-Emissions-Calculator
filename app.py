@@ -1,11 +1,13 @@
-from log import MY_API_KEY   # COMMENT THIS LINE ONCE YOU HAVE YOUR API KEY
+from dotenv import load_dotenv
+import os
 import streamlit as st
 import requests
 import pandas as pd
 import matplotlib.pyplot as plt
-import json
 
-#MY_API_KEY = "<ENTER HERE WITHIN QUOTES>"   UNCOMMENT THIS LINE AND ADD API KEY WITHIN QUOTES
+load_dotenv()
+MY_API_KEY = os.getenv("MY_API_KEY")
+
 url = "https://api.climatiq.io/data/v1/estimate"
 authorization_headers = {"Authorization": f"Bearer: {MY_API_KEY}"}    # USE AMERICAN SPELLING w/Z
 
