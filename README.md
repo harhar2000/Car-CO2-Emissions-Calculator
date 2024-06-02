@@ -2,7 +2,7 @@
 
 This project includes a Python script that uses the Climatiq API to calculate CO2 emissions for three types of vehicles over a specific distance. The vehicles considered are light, mid-range and heavy-duty vehicles. This project was commissioned by [marllm.io](https://www.marllm.io/)
 
-<img src="image.jpg" alt="Streamlit run Emission Calculator" width="600"/>
+<img src="image1.jpg" alt="Streamlit run Emission Calculator" width="600"/>
 
 ## Files Included
 
