@@ -2,6 +2,8 @@
 
 This project includes a Python script that uses the Climatiq API to calculate CO2 emissions for three types of vehicles over a specific distance. The vehicles considered are light, mid-range and heavy-duty vehicles. This project was commissioned by [marllm.io](https://www.marllm.io/)
 
+Deployed app link - https://car-co2-emissions-calculator-3eyzgf3dcv7jfdqmans8al.streamlit.app/
+
 <img src="image1.jpg" alt="Streamlit run Emission Calculator" width="600"/>
 
 ## Files Included
@@ -33,4 +35,3 @@ To run these scripts, you will need Python and the `requests` library installed.
 4. Comment Line 1 in `output_all_data.py`, `output_sorted_data.py` and `app.py` once you've inserted your Climatiq API key.
 5. To run the streamlit app, run `streamlit run app.py` in the terminal for app.py. This will start a local server. Open the URL provided in the terminal to interact with your app.
 
-Deployed app link - https://car-co2-emissions-calculator-3eyzgf3dcv7jfdqmans8al.streamlit.app/
