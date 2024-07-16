@@ -9,7 +9,7 @@ load_dotenv()
 MY_API_KEY = os.getenv("MY_API_KEY")
 
 url = "https://api.climatiq.io/data/v1/estimate"
-authorization_headers = {"Authorization": f"Bearer: {MY_API_KEY}"}
+authorization_headers = {"Authorization": f"Bearer {MY_API_KEY}"}
 
 activity_ids = {
     "light": "passenger_vehicle-vehicle_type_car-fuel_source_petrol-engine_size_na-vehicle_age_na-vehicle_weight_na",
